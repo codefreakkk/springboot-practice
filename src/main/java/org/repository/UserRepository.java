@@ -27,4 +27,17 @@ public class UserRepository {
         session.close();
     }
 
+    public User getUserGETMETHOD(int userId) {
+        Session session = sessionFactory.openSession();
+        User user = session.get(User.class, userId);
+        session.close();
+        return user;
+    }
+
+    public User getUserLOADMETHOD(int userId) {
+        Session session = sessionFactory.openSession();
+        User user = session.load(User.class, userId);
+        return user;
+    }
+
 }

@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba9655e2-4e04-4b7f-8557-24c171a6f679" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/application/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/application/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/application/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,10 @@
       <workItem from="1732351533556" duration="194000" />
       <workItem from="1732351748618" duration="4256000" />
       <workItem from="1732374205405" duration="1825000" />
-      <workItem from="1734534098816" duration="4190000" />
+      <workItem from="1734534098816" duration="4372000" />
+      <workItem from="1734621163916" duration="1246000" />
+      <workItem from="1734622616038" duration="2535000" />
+      <workItem from="1734707866343" duration="2765000" />
     </task>
     <servers />
   </component>
