@@ -3,6 +3,9 @@ package org.application;
 import org.config.HibernateConfig;
 import org.models.Address;
 import org.models.User;
+import org.repository.ManyToManyRepository;
+import org.repository.OneToManyRepository;
+import org.repository.OneToOneRepository;
 import org.repository.UserRepository;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -20,15 +23,15 @@ public class App
 //        userRepository.saveUser(currentUser);
 
         // get method demonstration
-        User user = userRepository.getUserGETMETHOD(52);
-        if (user != null) {
-             System.out.println(user.getFirstName() + " " + user.getLastName());
-             System.out.println("Country : " + user.getAddress().getCountry());
-             System.out.println("City : " + user.getAddress().getCity());
-        }
-        else {
-            // System.out.println("User not found");
-        }
+//        User user = userRepository.getUserGETMETHOD(52);
+//        if (user != null) {
+//             System.out.println(user.getFirstName() + " " + user.getLastName());
+//             System.out.println("Country : " + user.getAddress().getCountry());
+//             System.out.println("City : " + user.getAddress().getCity());
+//        }
+//        else {
+//            // System.out.println("User not found");
+//        }
 
         // load method demonstration
 //        User user2 = userRepository.getUserLOADMETHOD(1);
@@ -38,5 +41,19 @@ public class App
 //        else {
 //            System.out.println("User not found");
 //        }
+
+
+
+        // one to one demo
+//        OneToOneRepository oneToOneRepository = context.getBean(OneToOneRepository.class);
+//        oneToOneRepository.saveQuestionAndAnswer();
+
+        // one to many demo
+//        OneToManyRepository oneToManyRepository = context.getBean(OneToManyRepository.class);
+//        oneToManyRepository.saveQuestionAndAnswer();
+
+        // many to many demo
+        ManyToManyRepository manyToManyRepository = context.getBean(ManyToManyRepository.class);
+        manyToManyRepository.saveProjectWithEmployee();
     }
 }
